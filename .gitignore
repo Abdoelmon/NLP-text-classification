@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Virtual env
+venv/
+.env
+.env.* 
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs, DBs
+*.log
+*.sqlite3
+*.db
+
+# Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# Docker
+.dockerignore
+
+# Model artifacts (do NOT commit large model files by default)
+*.pkl
+models/
+artifacts/
+nltk_data/
+spacy_data/
+
+# Optional: if you DO want to keep models in repo use Git LFS instead
