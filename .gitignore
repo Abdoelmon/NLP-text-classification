@@ -36,4 +36,4 @@ artifacts/
 nltk_data/
 spacy_data/
 
-# Optional: if you DO want to keep models in repo use Git LFS instead
+# Optional: if you DO want to keep models in repo use Git LFS instead"*.joblib" 
