@@ -30,10 +30,11 @@ Thumbs.db
 .dockerignore
 
 # Model artifacts (do NOT commit large model files by default)
+*.joblib
 *.pkl
 models/
 artifacts/
 nltk_data/
 spacy_data/
 
-# Optional: if you DO want to keep models in repo use Git LFS instead"*.joblib" 
+# Optional: if you DO want to keep models in repo use Git LFS instead
